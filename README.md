@@ -1,7 +1,5 @@
 # How to run SpringBoot application in Tomcat with Docker
 
-**Note:** In order to run your Spring Boot app in standalone tomcat, please do make the code changes mentioned in [Deploying SpringBoot application in Standalone Tomcat](https://github.com/iamvickyav/Developer-Tips/blob/master/Deploy-SpringBootApp-In-Tomcat.md)
-
 ## Dockerfile explained
 
 ```
@@ -27,4 +25,4 @@ Now run the command
 
 Above command will start processing docker-compose.yml file. Since we specified **build: .** in docker-compose.yml file, it will look for Dockerfile in current directory & build a custom image using the same.
 
-Once the docker container is up, try hitting http://localhost:8080/sample/index?name=Vicky
+Once the docker container is up, try hitting http://localhost:8080/sample/index?name=abid
